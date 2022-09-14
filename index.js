@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 443;
+const port = process.env.PORT;
 
 // app.get('/', (req, res) => {
 //     res.status(200).send('Everything is OOOOOOOOOOOOK...')
